@@ -22,6 +22,8 @@ env:
   PRODUCTS_DOCKER: Store.ProductApi/Dockerfile
   PRODUCTS_IMAGE: products
 
+  DOTNET_SYSTEM_GLOBALIZATION_INVARIANT: true
+
 jobs:
   provision:
     runs-on: ubuntu-latest
