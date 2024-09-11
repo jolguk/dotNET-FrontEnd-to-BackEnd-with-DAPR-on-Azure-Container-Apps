@@ -8,10 +8,10 @@ on:
 env:
   
   # alphanumeric string under 14 characters
-  RESOURCE_GROUP_NAME: store
+  RESOURCE_GROUP_NAME: johackstore
 
   # specify your preferred region
-  REGION: eastus
+  REGION: uksouth
 
   STORE_DOCKER: Store/Dockerfile
   STORE_IMAGE: store
